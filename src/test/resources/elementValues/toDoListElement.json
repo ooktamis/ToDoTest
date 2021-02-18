@@ -1,0 +1,42 @@
+[
+  {
+    "key": "todoList",
+    "value": "//li[@class='todo']",
+    "type": "xpath"
+  },
+  {
+    "key": "inputToDo",
+    "value": "//input[@class='new-todo']",
+    "type": "xpath"
+  },
+  {
+    "key": "todoControl",
+    "value": "/html/body/section/section/ul/li/div/label",
+    "type": "xpath"
+  },
+  {
+    "key": "radioButton",
+    "value": "//input[@class='toggle']",
+    "type": "xpath"
+  },
+  {
+    "key": "toListesi",
+    "value": "todo-list",
+    "type": "className"
+  },
+  {
+    "key": "tolistMark",
+    "value": "//li[@class='todo completed']",
+    "type": "xpath"
+  },
+  {
+    "key": "tolistDelete",
+    "value": "//button[@class='destroy']",
+    "type": "xpath"
+  },
+  {
+    "key" : "todosTextControl",
+    "value" : "/html/body/section/header/h1",
+    "type" :"xpath"
+  }
+]

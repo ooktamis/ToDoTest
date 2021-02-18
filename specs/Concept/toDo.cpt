@@ -1,0 +1,38 @@
+#Adrese gidilir
+*Anasayfa acildi
+* "2" saniye bekle
+*Item "todos" kontrolu "todosTextControl"
+
+#Listenin bos oldugu kontrol edilir
+* "todoList" elementi var mi kontrol edilir
+* "3" saniye bekle
+
+#<item> itemi eklenir
+* "inputToDo" ya yeni item ekle <item>
+* "3" saniye bekle
+
+#<item> itemi listede var mi kontrol edilir
+*"todoControl" da <item> var mi kontrol edilir
+
+#Item <item> kontrolu <control>
+* "3" saniye bekle
+*<control> da <item> var mi kontrol edilir
+* "2" saniye bekle
+
+#<afterItem> iteminin <beforeItem> iteminin altindami
+*<afterItem> itemi <beforeItem> altindami "todoControl"
+* "2" saniye bekle
+
+#<afterItem> , <beforeItem> itemleri listede varmi
+* "2" saniye bekle
+* "todoControl" da <beforeItem> var mi kontrol edilir
+* "2" saniye bekle
+* "todoControl" da <afterItem> var mi kontrol edilir
+
+#<item> itemine <buton> butonu ile tikla
+* "2" saniye bekle
+* <item> icin <buton> butonuna tikla "todoControl"
+* "2" saniye bekle
+
+#<item> mark edildimi kontrol edilir
+*<item> itemi listede "toListesi" mark edildimi kontrol edilir "todoControl"
